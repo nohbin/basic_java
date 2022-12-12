@@ -40,13 +40,21 @@ public class Test3 {
 		}
 		System.out.print("당신의 학점은" + rank + "입니다"); // 학점 계산
 
-//		boolean F = true;
-//		
-//		if (rank = F;) {
-//			System.out.println("재수강 신청을 하겠습니까?");
-//		}
+		if (rank == "A") {
+			System.out.println("합격입니다");
+		}
+		else if (rank == "B") {
+			System.out.println("합격입니다");
+		}
+		else if (rank == "C") {
+			System.out.println("합격입니다");
+		}
+		else if (rank == "F") {
+			System.out.println("재수강 하세요");
+		}
 
-		// 학점이 F 인 경우 "재수강 대상 입니다." 출력
+
+		
 
 	}
 
